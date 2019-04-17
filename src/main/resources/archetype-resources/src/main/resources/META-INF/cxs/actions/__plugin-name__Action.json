@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "${plugin-name}Action",
+    "name": "${plugin-name}Action",
+    "description": "",
+    "tags": [
+      "hidden.availableToEndUser"
+    ],
+    "readOnly": true
+  },
+  "actionExecutor": "${plugin-name}Action",
+  "parameters": []
+}

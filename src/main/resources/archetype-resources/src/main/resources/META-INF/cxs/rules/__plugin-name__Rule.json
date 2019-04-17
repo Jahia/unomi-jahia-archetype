@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "id": "${plugin-name}Rule",
+    "name": "${plugin-name}Rule",
+    "description": "This is the ${plugin-name} rule"
+  },
+  "raiseEventOnlyOnceForSession": false,
+  "condition": {
+    "type": "eventTypeCondition",
+    "parameterValues": {
+      "eventTypeId": "${plugin-name}Event"
+    }
+  },
+  "actions": [
+    {
+      "type": "${plugin-name}Action",
+      "parameterValues": {}
+    }
+  ]
+}
